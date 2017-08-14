@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B025382BA3632A2D81F2D08F /* Pods_Don_Julio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E85EA23B996CA0E367ACDE3 /* Pods_Don_Julio.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E02BA1D01F33E37300C5D7C0 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02BA1CF1F33E37300C5D7C0 /* Favorito.swift */; };
+		E02BA1D21F33E50300C5D7C0 /* FavoritoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02BA1D11F33E50300C5D7C0 /* FavoritoTableViewCell.swift */; };
+		E06F307F1F323FE100CB46AD /* RecetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F307E1F323FE100CB46AD /* RecetaTableViewCell.swift */; };
+		E08790C81F31790800DB8830 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08790C71F31790800DB8830 /* Receta.swift */; };
+		E0C21C5A1F35273400889B6D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C21C591F35273400889B6D /* VideoViewController.swift */; };
+		E0D40CEB1F327B9C005A4AD7 /* RecetasCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D40CEA1F327B9C005A4AD7 /* RecetasCollectionViewController.swift */; };
+		E0D40CED1F327DE6005A4AD7 /* RecetaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D40CEC1F327DE6005A4AD7 /* RecetaCollectionViewCell.swift */; };
+		E0D791E71EE7A15E0024C638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D791E61EE7A15E0024C638 /* AppDelegate.swift */; };
+		E0D791E91EE7A15E0024C638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D791E81EE7A15E0024C638 /* ViewController.swift */; };
+		E0D791EC1EE7A15F0024C638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D791EA1EE7A15F0024C638 /* Main.storyboard */; };
+		E0D791EE1EE7A15F0024C638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D791ED1EE7A15F0024C638 /* Assets.xcassets */; };
+		E0D791F11EE7A15F0024C638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D791EF1EE7A15F0024C638 /* LaunchScreen.storyboard */; };
+		E0D791F91EE7A69A0024C638 /* ViewItemReceta.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D791F81EE7A69A0024C638 /* ViewItemReceta.xib */; };
+		E0FEE0901F3376FA006DADEA /* RecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FEE08F1F3376FA006DADEA /* RecetaViewController.swift */; };
+		E0FEE0921F339EAA006DADEA /* FavoritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FEE0911F339EAA006DADEA /* FavoritosTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E85EA23B996CA0E367ACDE3 /* Pods_Don_Julio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Don_Julio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EBC1FDA45487D89BDA96C /* Pods-Don Julio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Don Julio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Don Julio/Pods-Don Julio.release.xcconfig"; sourceTree = "<group>"; };
+		DEDD082CE45A99A39A14A125 /* Pods-Don Julio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Don Julio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Don Julio/Pods-Don Julio.debug.xcconfig"; sourceTree = "<group>"; };
+		E02BA1CF1F33E37300C5D7C0 /* Favorito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorito.swift; sourceTree = "<group>"; };
+		E02BA1D11F33E50300C5D7C0 /* FavoritoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritoTableViewCell.swift; sourceTree = "<group>"; };
+		E06F307E1F323FE100CB46AD /* RecetaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaTableViewCell.swift; sourceTree = "<group>"; };
+		E08790C71F31790800DB8830 /* Receta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		E09836BE1F40C526000A4A23 /* gotham-rounded-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-rounded-medium.otf"; sourceTree = "<group>"; };
+		E0C21C591F35273400889B6D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		E0D40CEA1F327B9C005A4AD7 /* RecetasCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetasCollectionViewController.swift; sourceTree = "<group>"; };
+		E0D40CEC1F327DE6005A4AD7 /* RecetaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0D791E31EE7A15A0024C638 /* Don Julio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don Julio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D791E61EE7A15E0024C638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0D791E81EE7A15E0024C638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0D791EB1EE7A15F0024C638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0D791ED1EE7A15F0024C638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0D791F01EE7A15F0024C638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0D791F21EE7A15F0024C638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D791F81EE7A69A0024C638 /* ViewItemReceta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewItemReceta.xib; sourceTree = "<group>"; };
+		E0FEE08F1F3376FA006DADEA /* RecetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaViewController.swift; sourceTree = "<group>"; };
+		E0FEE0911F339EAA006DADEA /* FavoritosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritosTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0D791E01EE7A15A0024C638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025382BA3632A2D81F2D08F /* Pods_Don_Julio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B2C994A0B94525A73CF039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E85EA23B996CA0E367ACDE3 /* Pods_Don_Julio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A74749DE7005E43B22251258 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD082CE45A99A39A14A125 /* Pods-Don Julio.debug.xcconfig */,
+				551EBC1FDA45487D89BDA96C /* Pods-Don Julio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E08790C61F31788500DB8830 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				E08790C71F31790800DB8830 /* Receta.swift */,
+				E02BA1CF1F33E37300C5D7C0 /* Favorito.swift */,
+			);
+			name = modelos;
+			sourceTree = "<group>";
+		};
+		E0D791DA1EE7A1590024C638 = {
+			isa = PBXGroup;
+			children = (
+				E0D791E51EE7A15D0024C638 /* Don Julio */,
+				E0D791E41EE7A15A0024C638 /* Products */,
+				A74749DE7005E43B22251258 /* Pods */,
+				90B2C994A0B94525A73CF039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D791E41EE7A15A0024C638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D791E31EE7A15A0024C638 /* Don Julio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D791E51EE7A15D0024C638 /* Don Julio */ = {
+			isa = PBXGroup;
+			children = (
+				E09836BE1F40C526000A4A23 /* gotham-rounded-medium.otf */,
+				E08790C61F31788500DB8830 /* modelos */,
+				E0D791E61EE7A15E0024C638 /* AppDelegate.swift */,
+				E0D791E81EE7A15E0024C638 /* ViewController.swift */,
+				E0D791EA1EE7A15F0024C638 /* Main.storyboard */,
+				E0D791ED1EE7A15F0024C638 /* Assets.xcassets */,
+				E0D791EF1EE7A15F0024C638 /* LaunchScreen.storyboard */,
+				E0D791F21EE7A15F0024C638 /* Info.plist */,
+				E0D791F81EE7A69A0024C638 /* ViewItemReceta.xib */,
+				E06F307E1F323FE100CB46AD /* RecetaTableViewCell.swift */,
+				E0D40CEA1F327B9C005A4AD7 /* RecetasCollectionViewController.swift */,
+				E0D40CEC1F327DE6005A4AD7 /* RecetaCollectionViewCell.swift */,
+				E0FEE08F1F3376FA006DADEA /* RecetaViewController.swift */,
+				E0FEE0911F339EAA006DADEA /* FavoritosTableViewController.swift */,
+				E02BA1D11F33E50300C5D7C0 /* FavoritoTableViewCell.swift */,
+				E0C21C591F35273400889B6D /* VideoViewController.swift */,
+			);
+			path = "Don Julio";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0D791E21EE7A15A0024C638 /* Don Julio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D791F51EE7A15F0024C638 /* Build configuration list for PBXNativeTarget "Don Julio" */;
+			buildPhases = (
+				E3FD234D3F9215D712AF53F9 /* [CP] Check Pods Manifest.lock */,
+				E0D791DF1EE7A15A0024C638 /* Sources */,
+				E0D791E01EE7A15A0024C638 /* Frameworks */,
+				E0D791E11EE7A15A0024C638 /* Resources */,
+				8783F08887F0A9481E28DC8B /* [CP] Embed Pods Frameworks */,
+				7081EF830258F22648C3AB9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Don Julio";
+			productName = "Don Julio";
+			productReference = E0D791E31EE7A15A0024C638 /* Don Julio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0D791DB1EE7A1590024C638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.hn;
+				TargetAttributes = {
+					E0D791E21EE7A15A0024C638 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5GYXD326B2;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = E0D791DE1EE7A1590024C638 /* Build configuration list for PBXProject "Don Julio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0D791DA1EE7A1590024C638;
+			productRefGroup = E0D791E41EE7A15A0024C638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D791E21EE7A15A0024C638 /* Don Julio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0D791E11EE7A15A0024C638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D791F11EE7A15F0024C638 /* LaunchScreen.storyboard in Resources */,
+				E0D791F91EE7A69A0024C638 /* ViewItemReceta.xib in Resources */,
+				E0D791EE1EE7A15F0024C638 /* Assets.xcassets in Resources */,
+				E0D791EC1EE7A15F0024C638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7081EF830258F22648C3AB9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Don Julio/Pods-Don Julio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8783F08887F0A9481E28DC8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Don Julio/Pods-Don Julio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swift-YouTube-Player/Swift_YouTube_Player.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swift_YouTube_Player.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Don Julio/Pods-Don Julio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FD234D3F9215D712AF53F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Don Julio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0D791DF1EE7A15A0024C638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08790C81F31790800DB8830 /* Receta.swift in Sources */,
+				E02BA1D21F33E50300C5D7C0 /* FavoritoTableViewCell.swift in Sources */,
+				E0FEE0901F3376FA006DADEA /* RecetaViewController.swift in Sources */,
+				E0D791E91EE7A15E0024C638 /* ViewController.swift in Sources */,
+				E0D40CED1F327DE6005A4AD7 /* RecetaCollectionViewCell.swift in Sources */,
+				E0D40CEB1F327B9C005A4AD7 /* RecetasCollectionViewController.swift in Sources */,
+				E0C21C5A1F35273400889B6D /* VideoViewController.swift in Sources */,
+				E0FEE0921F339EAA006DADEA /* FavoritosTableViewController.swift in Sources */,
+				E0D791E71EE7A15E0024C638 /* AppDelegate.swift in Sources */,
+				E06F307F1F323FE100CB46AD /* RecetaTableViewCell.swift in Sources */,
+				E02BA1D01F33E37300C5D7C0 /* Favorito.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0D791EA1EE7A15F0024C638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D791EB1EE7A15F0024C638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0D791EF1EE7A15F0024C638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D791F01EE7A15F0024C638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0D791F31EE7A15F0024C638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0D791F41EE7A15F0024C638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0D791F61EE7A15F0024C638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDD082CE45A99A39A14A125 /* Pods-Don Julio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GYXD326B2;
+				INFOPLIST_FILE = "Don Julio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.hn.Don-Julio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0D791F71EE7A15F0024C638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EBC1FDA45487D89BDA96C /* Pods-Don Julio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GYXD326B2;
+				INFOPLIST_FILE = "Don Julio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.hn.Don-Julio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D791DE1EE7A1590024C638 /* Build configuration list for PBXProject "Don Julio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D791F31EE7A15F0024C638 /* Debug */,
+				E0D791F41EE7A15F0024C638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D791F51EE7A15F0024C638 /* Build configuration list for PBXNativeTarget "Don Julio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D791F61EE7A15F0024C638 /* Debug */,
+				E0D791F71EE7A15F0024C638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0D791DB1EE7A1590024C638 /* Project object */;
+}
